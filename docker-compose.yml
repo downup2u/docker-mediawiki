@@ -17,7 +17,7 @@ services:
       depends_on:
         - mediawiki
       ports:
-        - "20080:80"
+        - "50123:80"
 
   db:
       image: mariadb:latest
