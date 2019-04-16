@@ -6,7 +6,7 @@ services:
       build: .
       volumes:
         - "mediawiki:/var/www/mediawiki"
-#        - "./www/LocalSettings.php:/var/www/mediawiki/LocalSettings.php"
+        - "./www/LocalSettings.php:/var/www/mediawiki/LocalSettings.php"
 #        - "./www/images:/var/www/mediawiki/images"
 
   nginx:
